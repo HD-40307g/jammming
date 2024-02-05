@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display & Positioning</title>
+    <link href="./resources/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>CSS Display & Positioning Properties</h1>
+    </header>
+    <main>
+        <section class="position">
+            <h2>CSS 'Position' Property</h2>
+            <h3>Positioning in CSS provides designers and developers options for positioning HTML elements on a web page</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="value">static</td>
+                        <td class="description">Static value is browser default value and does not need to be specified.</td>
+                    </tr>
+                    <tr>
+                        <td class="value">relative</td>
+                        <td class="description">The value relative of the CSS position property enables an element to be positioned relative to where it would have originally been on a web page. The offset properties can be used to determine the actual position of the element relative to its original position.</td>
+                    </tr>
+                    <tr>
+                        <td class="value">absolute</td>
+                        <td class="description">The value absolute for the CSS property position enables an element to ignore sibling elements and instead be positioned relative to its closest parent  element that is positioned with relative or absolute.  The absolute value removes an element entirely from the document flow. </td>
+                    </tr>
+                    <tr>
+                        <td class="value">fixed</td>
+                        <td class="description">When the CSS position has a value of fixed, it is set/pinned to a specific spot on a page. The fixed element stays the same regardless of scrolling. The navigation bar is a great example of an element that is often set to fixed position</td>
+                    </tr>
+                    <tr>
+                        <td class="value">sticky</td>
+                        <td class="description">Sticky value keeps element in the document flow as the user scrolls, but sticks to specific position as the page is scrolled further by using top, bottom, left or right properties.</td>
+                    </tr>
+                    <tr>
+                        <td class="value">z-index</td>
+                        <td class="description">The CSS z-index property species how far back or how far forward an element will appear on a web page when it overlaps other elements.The z-index property uses integer values, which can be positive or negative values. The element with the highest z-index value will be at the foreground, while the element with the lowest z-index value will be at the back.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section> 
+
+        <section class="clear">
+            <h2>CSS 'Clear' Property</h2>
+            <h3>The clear property specifies how elements should behave when they bumb into each other on the page</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="value">Value</th>
+                        <th class="description">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="value">left</td>
+                        <td class="description">Left sides of the element will not touch any other element within the same containing element.</td>
+                    </tr>
+                    <tr>
+                        <td class="value">right</td>
+                        <td class="description">Right sides of the element will not touch any other element within the same containing element.</td>
+                    </tr>
+                    <tr>
+                        <td class="value">both</td>
+                        <td class="description">Neither side will touch other elements.</td>
+                    </tr>
+                    <tr>
+                        <td class="value">none</td>
+                        <td class="description">The elements can touch on either side.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

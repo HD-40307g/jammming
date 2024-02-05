@@ -1,0 +1,122 @@
+/*General*/
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Helvetica';
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/*Header*/
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    margin-top: 0px;
+    opacity: 1;
+    text-align: justify
+
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: underline;
+    padding: 20px 10px;
+    float: right;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+/*Mission Section*/
+
+.mission{
+    background-image: url(./img-mission-background.webp);
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    top: 69px;
+}
+.banner-text{
+    position: relative;
+    top: 350px;
+    opacity: 1;
+    line-height: 1.5;
+}
+
+/*Featured Tea Section*/
+
+.featured-tea{
+    width: 1000px;
+    margin-top: 100px;
+}
+.featured-tea h4{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    margin: 16px;
+}
+
+/*Locations Section*/
+
+.locations{
+    margin-top: 50px;
+    background-image: url(./img-locations-background.webp);
+    width: 1200px;
+    height: 500px;
+}
+.location-header{
+    background-color: transparent;
+    padding-top: 50px;
+}
+.location-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    background-color: transparent;
+}
+.location-item{
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+}
+.location-text{
+    line-height: 3;
+}
+
+/*Footer*/
+footer{
+    height: 200px;
+    width: 100%;
+    line-height: 3;
+}
+#copyright{
+    float: left;
+    margin-left: 20px;
+}
