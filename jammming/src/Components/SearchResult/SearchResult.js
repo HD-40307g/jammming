@@ -1,11 +1,11 @@
 import React from "react";
 import "./searchResult.module.css";
-import Tracklist from "/jammming/src/Components/Tracklist/Tracklist";
+import Tracklist from "../Tracklist/Tracklist";
 
-function SearchResults () {
+function SearchResults (props) {
     return (
         <div className="SearchResults">
-            <Tracklist />
+            <Tracklist userSearchResult={props.userSearchResult} isRemoval={true} onAdd={props.onAdd} />
         </div>
         );
 }
